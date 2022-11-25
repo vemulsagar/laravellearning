@@ -101,3 +101,9 @@ Route::get('refresh_captcha', [TesterController::class,'refresh_captcha'])->name
 Route::get('selectQuery',[QueryBuilder::class,'selectQuery']);
 Route::get('whereQuery',[QueryBuilder::class,'whereQuery']);
 /**Query Builder End*/
+
+Route::get('test',function(){
+    return 'testing';
+});
+
+
