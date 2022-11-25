@@ -103,7 +103,7 @@ Route::get('whereQuery',[QueryBuilder::class,'whereQuery']);
 /**Query Builder End*/
 
 Route::get('test',function(){
-    return 'testing 1';
+    return 'testing';
 });
 
 
